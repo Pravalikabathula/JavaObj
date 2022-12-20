@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<title>StudentList</title>
+				</head>
+				    <body>
+	         	      <p>
+			
+					<td>studentid: $studentid </td>
+					<td>firstname:$firstname</td>
+					<td>lastname:$lastname</td>
+					<td>$course
+						<td>
+							<h1>Scores deatils</h1>
+ 
+                   #foreach($rr in [$scores])
+ 
+							<td>subject1:$subject1</td>
+							<td>subject2:$subject2</td>
+							<td>subject3:$subject3</td>
+							<td>subject4:$subject4</td>
+ 
+                               #end
+ 
+							<h2>StudentDeatils</h2>
+ 
+                  #foreach($rr in [$deatils])
+ 
+							<td>State:$state</td>
+							<td>Location:$location</td>
+							<td>Adress:$address</td>
+							<td>Floor:$floor</td>
+							<td>Room No:$roomno</td>
+							
+                          #end
+ 
+							<h3>EducationDeatils</h3>
+ 
+                   #foreach($rr in [$educationdeatils])
+ 
+							<td>University:$university</td>
+							<td>College:$college</td>
+							<td>Department:$department</td>
+ 
+                         #end
+				</p>
+			</body>
+		</html>
